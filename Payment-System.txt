@@ -98,8 +98,8 @@ t.value = t.value.substring(0,4) + "-" + t.value.substring (4,t.value.length);
     <p><b>> <u>Pay with PayPal</b>- <em>The faster and safer way to pay</em></u> </p>
     
     <div id="f2">
-      <p class="f2"><b>Pay Now </b><t></t>
-        <img src=”C:\Users\kanun\OneDrive\Documents\Internship\Project\Img121.jpg” width="175px" height="50px" align="middle"/> </p>
+      
+        <img src=”Pay-Now.png” width="175px" height="50px" align="middle"/> 
     </div>
 <div>
 <p id="gg">No payments + No interest if paid in full in 6 months of purchases of Rs.2000</p>
@@ -129,7 +129,7 @@ event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.
  <label for="ccnum">Card number</label>
  <input type="numeric" id="cnum" name="cardnumber" placeholder="0000-1111-2222-3333" maxlength="16" onkeypress="return ((event.charCode >= 48 && 
 event.charCode <=57) || event.charCode==31)" onblur="addhyphen();">
-  <img src="C:\Users\kanun\OneDrive\Documents\Internship\Project\Ccavenue-PG.png" width="350px" height="100px" align="right"/>
+  <img src="Ccavenue-PG.png" width="350px" height="100px" align="right"/>
 <br><br>
 
 <div>
@@ -162,7 +162,7 @@ event.charCode <=57 )" maxlength="4" min="2019">
 <input type="password" pattern="[0-9]" id="cvv" name="cvv" placeholder="123" inputmode="numeric" maxlength="3" onkeypress="return (event.charCode >= 48 && 
 event.charCode <=57 )">
               <br><br>
-   <img src="C:\Users\kanun\OneDrive\Documents\Internship\Project\Pay-Now.png" width="150px" height="50px" align="left"/>         
+   <img src="Pay-Now.png" width="150px" height="50px" align="left"/>         
       <br><br><br>    
 </div>
  </body>
